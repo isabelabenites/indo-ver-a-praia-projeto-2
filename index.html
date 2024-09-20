@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Indo ver a praia</title>
+  </head>
+  <body>
+    <main>
+      <div class="passo ativo" id="passo-0">
+        <img src="img/cenario-passo0.png" alt="" />
+        <p>
+          Você chegou em Santos. O dia está de céu limpo e ensolarado, um dia
+          perfeito para ir a praia. Você se organiza e decide ir. Por qual
+          caminho você segue?
+        </p>
+        <button class="btn-proximo" data-proximo="1">Seguir o Canal 2</button>
+        <button class="btn-proximo" data-proximo="2">Virar a esquina</button>
+      </div>
+      <div class="passo" id="passo-1">
+        <p>
+          Você começa a andar pelo Canal 2, o Sol está muito quente e a sua
+          cabeça dói. É um caminho muito longo até chegar a praia.
+        </p>
+        <button class="btn-proximo" data-proximo="3">
+          Persistir e continuar andando.
+        </button>
+        <button class="btn-proximo" data-proximo="4">
+          Desistir por conta do calor e voltar.
+        </button>
+      </div>
+      <div class="passo" id="passo-2">
+        <p>
+          Virando a esquina, você vê dois caminhos: Um onde o sol bate muito
+          forte, mas o caminho é mais rápido. E outro onde há mais sombra, porém
+          demora mais.
+        </p>
+        <button class="btn-proximo" data-proximo="5">
+          Seguir o caminho mais rápido.
+        </button>
+        <button class="btn-proximo" data-proximo="6">
+          Seguir o caminho mais demorado.
+        </button>
+      </div>
+      <div class="passo" id="passo-3">
+        <p>
+          Mesmo com o clima muito abafado, você sabe que vai valer a pena quando
+          chegar na praia.
+        </p>
+        <button class="btn-proximo" data-proximo="7">
+          Continuar andando em direção a praia.
+        </button>
+      </div>
+
+      <div class="passo" id="passo-4">
+        <img
+          src="img/cenario-passo4-voltar-casa.png"
+          alt="imagem voltando para casa e desitindo da aventura"
+        />
+        <p>
+          Você volta pra casa, visto que está muito abafado, e decide pedir um
+          açaí em casa. Não foi uma escolha tão ruim.
+        </p>
+      </div>
+
+      <div class="passo" id="passo-5">
+        <p>
+          Você está chegando mais rápido na praia como planejado. Entretanto,
+          está tão calor que você pensa em ter ido pelo outro caminho.
+        </p>
+        <button class="btn-proximo" data-proximo="7">
+          Continuar de qualquer forma.
+        </button>
+      </div>
+
+      <div class="passo" id="passo-6">
+        <p>
+          Você vai pelo caminho com mais sombras, e agradece, teria sido
+          horrível ter ido pelo outro caminho.
+        </p>
+        <button class="btn-proximo" data-proximo="8">
+          Continuar andando pela sombra
+        </button>
+      </div>
+
+      <div class="passo" id="passo-7">
+        <p>
+          Você observa ao seguir o caminho que há uma sorveteria, e você está
+          com muita sede. Você cogita comprar um sorvete.
+        </p>
+        <button class="btn-proximo" data-proximo="9">
+          Continuar indo para a praia.
+        </button>
+        <button class="btn-proximo" data-proximo="10">Ir na sorveteria.</button>
+      </div>
+
+      <div class="passo" id="passo-8">
+        <p>Você percebe que o caminho realmente é mais demorado que o outro.</p>
+        <button class="btn-proximo" data-proximo="7">
+          Seguir mais rápido para chegar na praia.
+        </button>
+      </div>
+
+      <div class="passo" id="passo-9">
+        <p>
+          Você caminha num ritmo rápido até a praia, você já consegue ver o mar.
+        </p>
+        <button class="btn-proximo" data-proximo="11">
+          Atravessar a rua e chegar na praia.
+        </button>
+      </div>
+
+      <div class="passo" id="passo-10">
+        <p>Você compra dois picolés, de coco e uva.</p>
+        <button class="btn-proximo" data-proximo="12">
+          Sair da sorveteria e continuar até a praia.
+        </button>
+      </div>
+
+      <div class="passo" id="passo-11">
+        <img
+          src="img/cenario-passo11-cidade-perdida.png"
+          alt="encontrando uma cidade maravilhosa perdida no Amazonas"
+        />
+        <p>
+          Você finalmente chega na praia. Todo o caminho e o clima quente valeu
+          a pena quando você entrou na água e você fica feliz por não ter
+          desistido de ir a praia.
+        </p>
+      </div>
+
+      <div class="passo" id="passo-12">
+        <p>
+          Você caminha num ritmo rápido até a praia enquanto toma seu picolé,
+          você já consegue ver o mar.
+        </p>
+        <button class="btn-proximo" data-proximo="11">
+          Atravessar a rua e chegar na praia.
+        </button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
